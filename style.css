@@ -1,0 +1,51 @@
+h1 {
+  color: white;
+}
+
+
+body {
+  padding: 100;
+  margin: 0;
+  background-image: url(bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz.background-size: cover;
+  -o-background-size: cover;
+}
+
+
+#main-container {
+  width: 360px;
+  margin-left: calc(50% - 180px);
+  background-color: rgba(255, 255, 255, 0.0);
+  margin-top: 30px;
+  box-shadow: 2px 2px 30px black;
+  border-radius: 10px;
+}
+
+
+#todo-list-container {
+  overflow-y: auto;
+  height: 500px;
+}
+
+
+.small-bottom-margin {
+  margin-bottom: 15px;
+}
+
+
+#header {
+  text-align: center;
+}
+
+
+#todo-list-container li {
+  cursor: pointer;
+  background-color: white;
+}
+
+
+#todo-list-container li:hover {
+background-color: lightblue;
+}
